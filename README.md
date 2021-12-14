@@ -22,7 +22,9 @@ Binance is used as the trading platform for cryptos. Since the volume and price 
 ## Scraping Text from Images
 While the most common reason for triggering a purchase is when the thread contains the keyword DOGE, I also added in a function to scrape all image URLs from the thread. I then use Google's Tesseract library to scrape any text that appears in the image. This is extremely useful when people post pictures of tweets or news articles as it easily reads black text on a white background.
 For example. When passed this meme,
+
 https://pbs.twimg.com/media/E7HWhnsXoAAkvaL?format=jpg&name=small
+
 the system scraped: 
 "What are you trying to tell me, that I can make a lot of money with Dogecoin?"
 "No, Neo. I'm trying to tell you that Dogecoin is money."
